@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(255, 0, 0, 0.3);
+    background-color: black;
 }
 .header {
     display: flex;
@@ -67,8 +67,7 @@ button {
     padding-top: 0;
 }
 
-.section1, .section2, .section3, .section4, .footer
-.section1 {
+.section1, .section2, .section3, .section4, .footer {
     
     width: 600px;
     margin-left: auto;
@@ -180,4 +179,19 @@ p {
     font-weight: 700;
     background-color: #3882F6;
     border: white solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    /* padding: 30px;
+    
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto; */
 }
