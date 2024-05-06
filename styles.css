@@ -52,6 +52,7 @@ a {
 
 button {
     color: white;
+    font-weight: 700;
     background-color: rgb(25, 159, 204);
     border-radius: 10px;
     padding: 8px 30px;
@@ -85,6 +86,7 @@ img {
     display: flex;
     flex: 1;
     min-width: 0;
+    border-radius: 10px;
 }
 
 .info {
@@ -112,7 +114,7 @@ img {
 .empty {
     width: 100px;
     height: 100px;
-    border: solid blue 3px;
+    border: solid rgb(11, 144, 189) 3px;
     border-radius: 10px;
 }
 
@@ -131,16 +133,51 @@ img {
 
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    
 }
 
 p {
     font-size: 36px;
     font: light italic;
     color: #1F2937;
+    margin: 0;
 }
 
 .quote {
     align-self: flex-end;
     font-weight: 700;
+}
+
+.section4 {
+    background-color: white;
+    padding-top: 50px;
+}
+
+.blue {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px 60px;
+}
+
+.section4 .left {
+    display: flex;
+}
+
+.call {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+.section4 p {
+    color: white;
+    font-size: 15px;
+}
+
+.section4 button {
+    font-weight: 700;
+    background-color: #3882F6;
+    border: white solid;
 }
